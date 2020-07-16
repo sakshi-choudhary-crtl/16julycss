@@ -1,0 +1,29 @@
+.box{
+    margin: px;
+    width: 25%;
+    background: black;
+    transition-property: all;
+    color: white;
+    margin-top: 50px;
+    transition-duration: 10ms;
+    transition-property: all;
+    transition-timing-function: ease-in (10ms);
+    animation: myframes 2s ease-in 0s infinite;
+}
+.headertext:hover{
+    background: black;
+    color: white;
+    transform: rotate(30deg);
+}
+@keyframes myframes{
+    from
+    {  height: 50px;} to
+
+    { height: 500px; }
+    
+
+}
+
+
+    
+    
